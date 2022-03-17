@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
+import { RiCloseCircleLine } from './RiCloseCircleLine';
+import { TiEdit } from './TiEdit';
 
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({
